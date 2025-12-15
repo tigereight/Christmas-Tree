@@ -135,7 +135,7 @@ const App: React.FC = () => {
         <div className="flex justify-between items-start pointer-events-auto">
           <div>
             <h1 className="text-4xl font-light tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600 drop-shadow-[0_0_10px_rgba(255,215,0,0.5)]">
-              GRAND PENGJIAYU
+              DEAR PENGJIAYU
             </h1>
             <p className="text-amber-100/60 text-sm mt-1 uppercase tracking-widest">
               Marry Christmas
