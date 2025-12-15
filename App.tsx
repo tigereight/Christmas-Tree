@@ -96,7 +96,7 @@ const App: React.FC = () => {
   // Handle Photo Upload
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files) {
-      const newPhotos: PhotoData[] = Array.from(e.target.files).map(file => {
+      const newPhotos: PhotoData[] = Array.from(e.target.files).map((file: File) => {
         // Generate random positions
         const h = (Math.random() - 0.5) * 15;
         const hNorm = (h + 10) / 20;
@@ -135,10 +135,10 @@ const App: React.FC = () => {
         <div className="flex justify-between items-start pointer-events-auto">
           <div>
             <h1 className="text-4xl font-light tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-600 drop-shadow-[0_0_10px_rgba(255,215,0,0.5)]">
-              NOËL CINEMATIC
+              GRAND PENGJIAYU
             </h1>
             <p className="text-amber-100/60 text-sm mt-1 uppercase tracking-widest">
-              Gesture Controlled Particle System
+              Marry Christmas
             </p>
           </div>
           
